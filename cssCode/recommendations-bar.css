@@ -1,0 +1,39 @@
+
+.recommendations-bar{
+  position: fixed;
+  display: flex;
+
+  top: 56px;
+  right: 0px;
+  left: 95px;
+  height: 30px;
+  background-color: white;
+  z-index: 100;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.recommendations,
+.recommendations-all{
+  background-color: rgb(241, 241, 241);
+  padding: 7px 12px 7px 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  margin-right: 9px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.recommendations-all{
+  background-color: black;
+  color: white;
+}
+
+@media(max-width:800px){
+
+  .recommendations-bar{
+    left: 20px;
+  }
+
+}
